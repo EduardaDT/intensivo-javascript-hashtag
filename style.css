@@ -1,0 +1,63 @@
+body {
+  background-image: linear-gradient(#850491, #2b0225);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #d6d6ea;
+}
+
+.container-aplication {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  background: linear-gradient(to right bottom,rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0.2));
+  backdrop-filter: blur(1rem);
+  border-radius: 5rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  padding: 34px;
+  border-radius: 1rem;
+}
+
+button {
+  background-color: inherit;
+  color: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #fdfdfd;
+}
+
+.music-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#track-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+
+#previous,
+#next {
+  font-size: 3rem;
+}
+
+#play-pause {
+  font-size: 4rem;
+}
+
+#container-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
